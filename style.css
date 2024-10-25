@@ -1,0 +1,104 @@
+/* Estilos Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Alerta de Emergência */
+.alert-banner {
+  background-color: #FF5733;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.alert-banner p {
+  font-weight: bold;
+}
+
+/* Seções de Conteúdo */
+section {
+  padding: 20px;
+  margin-top: 60px;
+  /* Ajustar devido ao banner fixo */
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Imagem do Mapa */
+.imagem-mapa {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
