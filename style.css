@@ -71,11 +71,20 @@ ul li {
   margin-bottom: 10px;
 }
 
-/* Imagem do Mapa */
-.imagem-mapa {
-  max-width: 100%;
-  height: auto;
-  margin-top: 10px;
+/* Estilos do Iframe */
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* Proporção 16:9 */
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 /* Rodapé */
